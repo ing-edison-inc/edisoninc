@@ -1,0 +1,16 @@
+total 44
+drwxr-x--- 6 edisoninc edisoninc 4096 Jul 24 19:09 ./
+drwxr-xr-x 3 root      root      4096 Jul 20 18:19 ../
+-rw------- 1 edisoninc edisoninc   61 Jul 21 19:19 .Xauthority
+lrwxrwxrwx 1 edisoninc edisoninc   20 Jul 20 18:34 .aws -> /mnt/c/Users/as/.aws/
+lrwxrwxrwx 1 edisoninc edisoninc   22 Jul 20 18:34 .azure -> /mnt/c/Users/as/.azure/
+-rw------- 1 edisoninc edisoninc  116 Jul 21 20:46 .bash_history
+-rw-r--r-- 1 edisoninc edisoninc  220 Jul 20 18:19 .bash_logout
+-rw-r--r-- 1 edisoninc edisoninc 3771 Jul 20 18:19 .bashrc
+drwx------ 2 edisoninc edisoninc 4096 Jul 20 18:21 .cache/
+drwxr-xr-x 4 edisoninc edisoninc 4096 Jul 20 18:34 .docker/
+drwxr-xr-x 7 edisoninc edisoninc 4096 Jul 24 19:07 .git/
+drwxr-xr-x 2 edisoninc edisoninc 4096 Jul 24 19:05 .landscape/
+-rw-rw-r-- 1 edisoninc edisoninc    0 Jul 24 19:05 .motd_shown
+-rw-r--r-- 1 edisoninc edisoninc  807 Jul 20 18:19 .profile
+-rw-r--r-- 1 edisoninc edisoninc    0 Jul 24 19:09 f1.txt
