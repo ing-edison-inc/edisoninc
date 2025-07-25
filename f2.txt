@@ -1,0 +1,1 @@
+Ahora esta si es la consola WSL
