@@ -124,3 +124,87 @@ git branch
 git branch -d p1
 git branch | cat
 tree .git
+git init
+ll
+git branch
+git branch p1
+git branch
+git checkout p1
+git branch
+git status
+tree .git
+more .git/refs/heads/p1
+echo "rama p1" >rama-p1.txt
+git status
+git .add
+git add.
+git add .
+git commit -m "nueva rama p1"
+git log --oneline --decorate --all --graph | cat
+git checkout main
+git checkout master
+ll
+git merge p1
+git log --oneline --decorate --all --graph | cat
+git branch -d p1
+git branch 
+tree
+tree .git
+tree
+git checkout -b r2
+echo "rama r2" >r2.txt
+git checkout master
+git checkout -b fix1
+echo "fix1" >fix1.txt
+git branch | cat
+git status
+git checkout fix1
+git add fix1.txt
+git status
+git commit -a "fix: fix1"
+git commit -m "fix: fix1"
+git status
+git checkout r2
+git add r2.txt
+git status
+git commit -m "feature: r2"
+git log --oneline --decorate --all --graph | cat
+git checkout r2
+git checkout fix1
+git checkout master
+git log --oneline --decorate --all --graph | cat
+git merge fix1
+git log --oneline --decorate --all --graph | cat
+git branch -d fix1
+git merge r2
+git log --oneline --decorate --all --graph | cat
+git branch .d r2
+git branch -d r2
+git log --oneline --decorate --all --graph | cat
+git remote add origin git@github.com:ing-edison-inc/edisoninc.git
+git branch -M master
+git push -u origin master
+ls -la ~/.ssh
+ssh-keygen -t ed25519 -C "ing-edison-inc@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub
+ssh -T git@github.com
+git branch -M master
+git push -u origin master
+git remote -v
+git clone git@github.com:ing-edison.inc/edisoninc.git
+git remote set-url origin git@github.com:ing-edison-inc/edisoninc.git
+git remote -v
+git push -u origin master
+ssh -T git@github.com
+git push -u origin master
+git remote remove origin
+git remote set-url origin git@github.com:ing-edison-inc/edisoninc.git
+git branch -M master
+git push -u origin master
+ll
+git init
+ll
+ll -a
+
